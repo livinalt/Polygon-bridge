@@ -62,16 +62,14 @@ Wait for about 20-30 minutes for the tokens to show up in your Polygon account.
 
 #### 4. Verify Tokens on Polygon
 
-Check your Polygon account for the tokens using [Polygonscan](https://polygonscan.com/). Once the tokens arrive, note the transaction details to get the contract address on Polygon.
 
-Update the `tokenAddress` variable in the `getBalance.js` script with this Polygon contract address.
 
 #### 5. Check Balance on Polygon
 
-Check the balance of your tokens on the Mumbai test network:
+Check the balance of your tokens on the amoy test network:
 
 ```sh
-npx hardhat run scripts/getBalance.js --network mumbai
+npx hardhat run scripts/getBalance.js --network amoy
 ```
 
 ### Scripts Overview
@@ -100,8 +98,8 @@ npx hardhat run scripts/approveDeposit.js --network Sepolia
 
 # Wait for tokens to arrive on Polygon (20-30 minutes)
 
-# Check token balance on Mumbai
-npx hardhat run scripts/getBalance.js --network mumbai
+# Check token balance on amoy
+npx hardhat run scripts/getBalance.js --network amoy
 ```
 ## Author
 Jeremiah Samuel - livinalt@gmail.com
